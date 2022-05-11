@@ -1,0 +1,8 @@
+.app-header {
+    height: 100%;
+    border-bottom: 1px solid #000;
+}
+
+.app-header_logo img {
+    width: 7rem;
+}
