@@ -1,8 +1,43 @@
 .app-header {
     height: 100%;
-    border-bottom: 1px solid #000;
+}
+
+.app-header_logo {
+    text-align: center;
 }
 
 .app-header_logo img {
-    width: 7rem;
+    width: 102px;
 }
+
+.app-header_menu {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.app-header_menu ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+
+.app-header_menu a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .25s ease-in-out;
+}
+
+.app-header_menu a:hover {
+    color: rgba(65, 65, 65, 0.664);
+}
+
