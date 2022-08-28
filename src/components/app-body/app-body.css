@@ -1,0 +1,28 @@
+.main-body {
+    min-height: calc(100vh - 80px);
+}
+
+.about_me {
+    margin-top: 120px;
+    background: #fff;
+    border-radius: 10px;
+    height: 370px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    box-shadow: 5px -5px 60px -29px rgba(0,0,0,0.64);
+}
+
+.about_me h1 {
+    font-size: 130px;
+    padding-left: 60px;
+    padding-top: 24px;
+}
+
+.about_me p {
+    padding-left: 71px;
+    padding-right: 120px;
+    font-size: 16px;
+}
+

@@ -1,4 +1,19 @@
-.app {
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.main-app {
     margin: 0 auto;
     width: 100%;
+    min-height: 100%;
+    background: #F4F3F1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.main-header, .main-body, .main-footer {
+    flex-shrink: 0;
 }

@@ -41,3 +41,9 @@
     color: rgba(65, 65, 65, 0.664);
 }
 
+.app-header_menu img {
+    width: 22px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
