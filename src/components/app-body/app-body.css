@@ -1,5 +1,5 @@
-.main-body {
-    min-height: calc(100vh - 80px);
+.app-body {
+    height: 100vh;
 }
 
 .about_me {

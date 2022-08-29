@@ -1,9 +1,8 @@
 import React from 'react';
-import './app-footer.css';
 
-const AppFooter = () => {
+const Contact = () => {
     return (
-        <div className="app-footer">
+        <div className="app-contact">
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
@@ -15,4 +14,4 @@ const AppFooter = () => {
     )
 }
 
-export default AppFooter;
+export default Contact;
