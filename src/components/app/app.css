@@ -2,7 +2,6 @@
 html, body {
     width: 100%;
     height: 100%;
-    overflow: hidden;
 }
 
 .main-app {
@@ -17,4 +16,32 @@ html, body {
 
 .main-header, .main-body, .main-footer {
     flex-shrink: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .about_me {
+      margin-left: 0;
+      margin-top: 65px;
+    }
+    .about_me h1 {
+        font-size: 50px;
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+    .about_me p {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 16px;
+    }
+    .app-header_menu ul {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .app-header_menu li {
+        padding-bottom: 20px;
+    }
+    .about_info-job {
+        text-align: center;
+    }
 }

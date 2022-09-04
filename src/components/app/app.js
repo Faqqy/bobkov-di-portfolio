@@ -1,8 +1,9 @@
 import React from 'react';
 import {  BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
-import Contact from '../Contact';
+import Job from '../Job';
 import AppHeader from '../app-header/app-header';
 import AppBody from '../app-body/app-body';
+// import AppFooter from '../app-footer/app-footer';
 import './app.css';
 
 function App() {
@@ -15,10 +16,12 @@ function App() {
             <Router>
                 <Routes>
                     <Route path='/' element={<AppBody/>} />
-                    <Route path='/contact' element={<Contact/>} />
+                    <Route path='/job' element={<Job/>} />
                 </Routes>
             </Router>
-
+            {/* <div className="main-footer">
+                <AppFooter/>
+            </div> */}
         </div>
     );
 }
